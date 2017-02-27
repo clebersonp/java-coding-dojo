@@ -5,8 +5,8 @@ import java.util.List;
 
 public class FizzBuzz {
 
-    private static final int DIVISIVEL_POR_TREZ = 3;
-    private static final int DIVISIVEL_POR_CINCO = 5;
+    private static final int DIVISAO_POR_TREZ = 3;
+    private static final int DIVISAO_POR_CINCO = 5;
     private static final String FIZZ = "Fizz";
     private static final String BUZZ = "Buzz";
     private static final String FIZZ_BUZZ = FIZZ + BUZZ;
@@ -18,11 +18,11 @@ public class FizzBuzz {
     }
     
     public boolean isDivisivelPor3(int number) {
-        return (number % DIVISIVEL_POR_TREZ == 0);
+        return (number % DIVISAO_POR_TREZ == 0);
     }
     
     public boolean isDivisivelPor5(int number) {
-        return (number % DIVISIVEL_POR_CINCO == 0);
+        return (number % DIVISAO_POR_CINCO == 0);
     }
     
     public boolean isDivisivelPor3E5(int number) {
